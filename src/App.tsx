@@ -1,7 +1,15 @@
+// import styled from 'styled-components'
+import { GlobalSyle } from './styles/global';
+import { Header } from './components/header/index'
+
+
 export function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <>
+      <Header/>
+      <GlobalSyle/>
+      </>
     </div>
   );
 }
