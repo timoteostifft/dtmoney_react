@@ -6,7 +6,7 @@ export const GlobalSyle = createGlobalStyle`
     --background: #f0f2f5;
     --red: #E52e4d;
     --blue: #5429cc;
-
+    --green: #33cc85;
     --blue-light: #6933ff;
 
     --text-title: #363f5f;
