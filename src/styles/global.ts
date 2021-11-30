@@ -12,8 +12,7 @@ export const GlobalSyle = createGlobalStyle`
     --text-title: #363f5f;
     --text-body: #969cb3;
 
-    --background: #f0f2f5;
-    --shape: #ffffff;
+    --shape: #FFFFFF;
   }
 
   *{
@@ -33,7 +32,7 @@ export const GlobalSyle = createGlobalStyle`
   }
 
   body{
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
 
